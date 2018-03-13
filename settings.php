@@ -36,3 +36,19 @@ $options['popup']=get_string('popup');
 $settings->add(new admin_setting_configselect('block_superiframe/pagelayout', 
         get_string('pagelayout', 'block_superiframe'),
         get_string('pagelayout_details', 'block_superiframe'),'course', $options));
+
+$settings->add(new admin_setting_configtext('block_superiframe/url',
+        get_string('url', 'block_superiframe'),
+        get_string('url_details', 'block_superiframe'), 
+'https://quizlet.com/132695231/scatter/embed', PARAM_RAW));
+
+$settings->add(new admin_setting_configtext('block_superiframe/height', 
+get_string('height', 'block_superiframe'), 
+get_string('height_details', 'block_superiframe'), '400' , PARAM_INT));
+
+$settings->add(new admin_setting_configtext('block_superiframe/width', 
+get_string('width', 'block_superiframe'), 
+get_string('width_details', 'block_superiframe'), '600' , PARAM_INT));
+
+        
+

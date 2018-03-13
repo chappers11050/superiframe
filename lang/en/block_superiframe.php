@@ -29,9 +29,16 @@ $string['blockstring'] = 'Block string';
 $string['superiframe:addinstance'] = 'Add a superiframe block';
 $string['superiframe:myaddinstance'] = 'Add a superiframe block to my moodle';
 $string['welcomeuser'] = 'Welcome {$a->firstname} {$a->lastname}';
+$string['gotosuperiframe'] = 'Open the quiz!';
 
 // Strings for the settings.php file
 $string['headerconfig'] = 'Config section header';
 $string['descconfig'] = 'Description of the config section';
 $string['pagelayout_details'] = '';
 $string['pagelayout'] = 'Page layout';
+$string['url'] = 'iFrame URL';
+$string['url_details'] = 'Set the URL for the iframe here';
+$string['height'] = 'Height';
+$string['height_details'] = 'Set the height of the iframe';
+$string['width'] = 'Width';
+$string['width_details'] = 'Set the width of the iframe';
